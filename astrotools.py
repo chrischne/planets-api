@@ -45,17 +45,23 @@ def getPlanet(_mode,_planet, _day, _month, _year):
     return result
     
 
-def getPlanets( _day, _month, _year):
+def getPlanets( _mode, _day, _month, _year):
     julday = swe.julday(_year, _month, _day, 12.0, swe.GREG_CAL)
-        
+    flag = swe.FLG_SWIEPH + swe.FLG_SPEED 
+
+    if _mode == 'helio':
+        flag = swe.FLG_SWIEPH + swe.FLG_SPEED + swe.FLG_HELCTR
+    else: _mode = 'geo'
+
     results = []
     for planet in planets.keys():
         planet_id = planets[planet]
-        pos = swe.calc_ut(julday, planet_id, swe.FLG_SWIEPH + swe.FLG_SPEED)
+        pos = swe.calc_ut(julday, planet_id, flag)
         result = {
             'name': planet,
             'pos': pos[0],
-            'distance': pos[2]
+            'distance': pos[2],
+            'mode': _mode
         }
         results.append(result)
     
