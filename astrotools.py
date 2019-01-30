@@ -23,6 +23,27 @@ planets = {
     'moon': swe.MOON
 }
 
+
+def getPlanet(_mode,_planet, _day, _month, _year):
+    planet_id = planets[_planet]
+    julday = swe.julday(_year, _month, _day, 12.0, swe.GREG_CAL)
+
+    flag = swe.FLG_SWIEPH + swe.FLG_SPEED 
+
+    if _mode == 'helio':
+        flag = swe.FLG_SWIEPH + swe.FLG_SPEED + swe.FLG_HELCTR
+    
+    pos = swe.calc_ut(julday, planet_id, flag)
+    print(pos)
+    result = {
+        'name': _planet,
+        'pos': pos[0],
+        'distance': pos[2],
+        'mode': _mode
+    }
+    return result
+    
+
 def getPlanets( _day, _month, _year):
     julday = swe.julday(_year, _month, _day, 12.0, swe.GREG_CAL)
         
