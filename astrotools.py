@@ -32,6 +32,7 @@ def getPlanet(_mode,_planet, _day, _month, _year):
 
     if _mode == 'helio':
         flag = swe.FLG_SWIEPH + swe.FLG_SPEED + swe.FLG_HELCTR
+    else: _mode = 'geo'
     
     pos = swe.calc_ut(julday, planet_id, flag)
     print(pos)
