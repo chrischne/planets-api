@@ -1,0 +1,182 @@
+{
+    "aspects":
+    {
+        "sun_conjunction_moon":
+        {
+            "love": 4,
+            "passion": 3,
+            "communication": 0
+        },
+        "sun_conjunction_mercury":
+        {
+            "love": 0,
+            "passion": 0,
+            "communication": 4
+        }
+        ,
+        "sun_conjunction_venus":
+        {
+            "love": 5,
+            "passion": 0,
+            "communication": 0
+        },
+          "sun_opposition_venus":
+        {
+            "love": 5,
+            "passion": 0,
+            "communication": 0
+        },
+        "sun_conjunction_mars":
+        {
+            "love": 0,
+            "passion": 4,
+            "communication": 1
+        },
+         "sun_conjunction_jupiter":
+        {
+            "love": 1,
+            "passion": 1,
+            "communication": 1
+        },
+        "sun_conjunction_saturn":
+        {
+            "love": -1,
+            "passion": -1,
+            "communication": -1
+        },
+        "sun_conjunction_pluto":
+        {
+            "love": 0,
+            "passion": 3,
+            "communication": 0
+        },
+        "moon_conjunction_mercury":
+        {
+            "love": 0,
+            "passion": 0,
+            "communication": 4
+        },
+        "sun_opposition_mercury":
+        {
+            "love": 0,
+            "passion": 0,
+            "communication": 4
+        },
+        "moon_conjunction_venus":
+        {
+            "love": 5,
+            "passion": 1,
+            "communication": 1
+        },
+        "moon_conjunction_mars":
+        {
+            "love": 0,
+            "passion": 4,
+            "communication": -1
+        },
+        "moon_conjunction_jupiter":
+        {
+            "love": 1,
+            "passion": 1,
+            "communication": 1
+        },
+        "moon_conjunction_saturn":
+        {
+            "love": -1,
+            "passion": -1,
+            "communication": -1
+        } ,
+        "moon_conjunction_pluto":
+        {
+            "love": -1,
+            "passion": 0,
+            "communication": 0
+        },
+        "mercury_conjunction_venus":
+        {
+            "love": 2,
+            "passion": 0,
+            "communication": 4
+        },
+        "mercury_conjunction_mars":
+        {
+            "love": 0,
+            "passion": 2,
+            "communication": 2
+        },
+         "mercury_conjunction_jupiter":
+        {
+            "love": 0,
+            "passion": 0,
+            "communication": 1
+        },
+        "mercury_conjunction_saturn":
+        {
+            "love": 0,
+            "passion": 0,
+            "communication": -1
+        },
+         "mercury_conjunction_pluto":
+        {
+            "love": 0,
+            "passion": 1,
+            "communication": -1
+        },
+        "venus_conjunction_mars":
+        {
+            "love": 2,
+            "passion": 4,
+            "communication": 0
+        },
+        "venus_conjunction_jupiter":
+        {
+            "love": 2,
+            "passion": 1,
+            "communication": 1
+        },
+         "venus_conjunction_saturn":
+        {
+            "love": -1,
+            "passion": 0,
+            "communication": 0
+        },
+        "venus_conjunction_pluto":
+        {
+            "love": -1,
+            "passion": 2,
+            "communication": -1
+        },
+        "mars_conjunction_jupiter":
+        {
+            "love": 0,
+            "passion": 2,
+            "communication": 0
+        },
+        "mars_conjunction_saturn":
+        {
+            "love": -1,
+            "passion": -1,
+            "communication": 0
+        },
+        "mars_conjunction_pluto":
+        {
+            "love": 0,
+            "passion": 1,
+            "communication": 0
+        },
+        "saturn_conjunction_pluto":
+        {
+            "love": -2,
+            "passion": -2,
+            "communication": -2
+        }
+    },
+    "houses":
+    {},
+    "none": {
+                "love": 0,
+                "passion": 0,
+                "communication": 0,
+                "stability": 0
+            }
+}
