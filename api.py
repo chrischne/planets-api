@@ -47,5 +47,5 @@ api.add_resource(MultiPlanetPos, '/planets/<string:_mode>/<int:_day>/<int:_month
 if __name__ == '__main__':
     swe.set_ephe_path('')
     #threaded=True is important otherwise expremely painfully long lags when called in chrome
-    #app.run(debug=False,threaded=True,host='0.0.0.0')
-    app.run()
+    app.run(debug=False,threaded=True,host='0.0.0.0')
+    #app.run()
